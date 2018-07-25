@@ -4,6 +4,7 @@
 `Note: All path commands are from the DevTool panel`
 
 ## Navigation 🔗
+- [Console](docs/console.md)
 - [Debugging](docs/debugging.md)
 - [Snippets](docs/snippets.md)
 
