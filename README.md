@@ -1,7 +1,7 @@
 # chrome-dev-tools
 🛠 Tips for Chrome's DevTools
 
-All path commands are from the DevTool panel
+`Note: All path commands are from the DevTool panel`
 
 ## Navigation 🔗
 - [Debugging](docs/debugging.md)
