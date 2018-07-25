@@ -3,8 +3,9 @@
 
 All path commands are from the DevTool panel
 
-## Debugging
-🔗 [Go to Debugging page](docs/debugging.md)
+## Navigation 🔗
+- [Debugging](docs/debugging.md)
+- [Snippets](docs/snippets.md)
 
 ## Styles
 
