@@ -1,5 +1,6 @@
 # Console
 
 ## Commands
-- `clear()`: Clears console
-- `Shift + Enter`: New line
+- `clear()` - Clears console
+- `copy(data)` - Copies data to clipboard
+- `Shift + Enter` - New line
