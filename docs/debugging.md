@@ -3,9 +3,50 @@
 ## Set up
 
 ### Set breakpoint
+
+#### In DevTools
+
 Set a breakpoint by clicking in the line number on the left of the editor. The blue marker indicates that a breakpoint has been set on that line.
 
 Click the marker again to **remove a breakpoint**.
+
+#### In Editor
+
+You can trigger a breakpoint in your code by manually adding a `debugger`:
+
+```js
+function squareNum(num) {
+    const product = num * num;
+    debugger; //  <-------------  Block will break here
+    return product;
+}
+```
+
+## Breakpoints
+
+### Line of code
+
+When you know where you want to stop. These are the typical flag breakpoints.
+
+### Conditional line of code
+
+When you know where you want to stop if a specific condition is true. After flagging a line, you can `Right Click` and add a condition to the breakpoint.
+
+### DOM
+
+When you know that a specific piece of the DOM is going to be edited. `Right Click` on the element and add a `Break on...` scenario.
+
+### XHR
+
+When you are getting information from a server.
+
+### Event Listener
+
+When you want to break on a particular event.
+
+### Exception
+
+When there is a mistake in the code and an exception is thrown.
 
 ## Buttons
 
