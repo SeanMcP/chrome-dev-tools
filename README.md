@@ -3,10 +3,18 @@
 
 `Note: All path commands are from the DevTool panel`
 
-## Navigation 🔗
+## Docs 🔗
 - [Console](docs/console.md)
 - [Debugging](docs/debugging.md)
 - [Snippets](docs/snippets.md)
+
+## Navigation
+
+**Open file** - `Command + P`
+
+**Find file** - `Command + O` + `:25` to go to a specific line
+
+**Search** - `Command + Option + F`
 
 ## Styles
 
