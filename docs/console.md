@@ -63,7 +63,17 @@ This groups can be nested within one another.
 
 ### Change style
 
-`console.log('%cBig, blue, and highlighted', 'color: blue; font-size: 5rem; background: yellow')`
+You can change the style of a log by tagging it with `%c` and providing a CSS-string argument:
+
+```
+console.log('%cBig, blue, and highlighted', 'color: blue; font-size: 5rem; background: yellow')
+```
+
+Add multiple `%c`s and CSS arguments:
+
+```
+console.log('%cBig, %cblue, and %chighlighted', 'font-weight: bold', 'color: blue', 'background: yellow');
+```
 
 The console is your oyster.
 
